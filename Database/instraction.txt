@@ -1,2 +1,0 @@
-1) go to C:\xampp\mysql\data 
-2)past this folder (training) in it 
