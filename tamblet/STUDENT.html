@@ -131,62 +131,38 @@
 							<!--<h2 class="to-animate hero-animate-2">مرحبا .....</h2>-->
 							<br/>
 							<br/>
-							
+                            
 							<table class="table table-striped">
+                            <thead>
+										<tr>
+                                        <td style="color:#fcfdfe;">xxx@xxx.com</td>
+										<td style="text-align: right; font-weight: bold;">: الايميل</td>
+										</tr>
 									
-									<thead>
-
-										<tr>
-
-											<th style="float: right;">الايميل</th>
-
-											
-										</tr>
-
-									</thead>
-
-									<tbody>
-
-										<tr>
-											<td style="color:#94CDDE;">T@T.com</td>
-
-										</tr>
-									<thead>
-										<tr>
-										<th style="float: right;"> رقم الجوال</th>
-										</tr>
-									</thead>	
-										<tr>
-											<td style="color:#94CDDE;">0555555555</td>
-										</tr>
-									<thead>
-										<tr>
-										<th style="float: right;">الجامعة</th>
-										</tr>
-									</thead>	
-										<tr>
-											<td style="color:#94CDDE;">جامة الاميرة نورة بنت عبدالرحمن</td>
-										</tr>
-									<thead>
-										<tr>
-										<th style="float: right;">الكلية</th>
-										</tr>
-									</thead>	
-										<tr>
-											<td style="color:#94CDDE;">كلية علوم الحاسب</td>
-										</tr>
-									<thead>
-										<tr>
-										<th style="float: right;">القسم</th>
-										</tr>
-									</thead>	
-										<tr>
-											<td style="color:#94CDDE;">شبكات و انظمة اتصال</td>
-										</tr>	
-									</tbody>
 									
-								</table>
-									<a href="EDITSUPERVISOR.HTML" class="btn btn-outline btn-lg">تحديث</a>
+										<tr>
+                                        <td style="color:#fcfdfe;">05********</td>
+										<td style="text-align: right;  font-weight: bold;">: رقم الجوال</td>
+										</tr>
+									
+									
+										<tr>
+                                        <td style="color:#fcfdfe;">جامة الاميرة نورة بنت عبدالرحمن</td>
+										<td style="text-align: right;  font-weight: bold;">: الجامعة</td>
+										</tr>
+									
+										<tr>
+                                        <td style="color:#fcfdfe;">كلية علوم الحاسب</td>
+										<td style="text-align: right;  font-weight: bold;">: الكلية</td>
+										</tr>
+									
+										<tr>
+                                        <td style="color:#fcfdfe;">شبكات و انظمة اتصال</td>
+										<td style="text-align: right;  font-weight: bold;">: القسم</td>
+										</tr><br/>
+                            </thead>
+                            </table>
+									<a href="updateStudentProfile.HTML" class="btn btn-outline btn-lg"style="font-weight: bold;">تحديث</a>
 									
 						</div>
 					</div>
@@ -197,75 +173,39 @@
 		<div id="fh5co-main">
 			<div class="container">
 				
-					
 <table class="table">
     <thead>
-        <tr>
-            
-            <th>تنبيه</th>
-            <th>ملف الطالب </th>
-            <th>الاسم الاخير</th>
-            <th>اسم المستخدم</th>
-            <th>الاسم الاول</th>
-        </tr>
+    <tr>
+    <td style="text-align: right; font-weight: bold;">  رابط صفحة المشرف</td>
+    <td style="text-align: right; font-weight: bold;">  ID رقم معرف المشرف</td>
+    <td style="text-align: right; font-weight: bold;"> اسم المشرف</td>
+    </tr>
+    
+    <tr>
+    <td style="text-align: right; font-weight: bold; color:#94CDDE;">www.tadreb.********.com</td>
+    <td style="text-align: right; font-weight: bold; color:#94CDDE;">1234****</td>
+    <td style="text-align: right; font-weight: bold; color:#94CDDE;">اسم المشرف</td>
+    </tr>
+    
+    <tr>
+    <td colspan="3" style="text-align: right; font-weight: bold;"> اختر ملف للتحميل</td>
+    </tr>
     </thead>
-    <tbody>
-        <tr>
-            
-            <td>
-                <fieldset class="form-group">
-                    <input type="checkbox" id="checkbox1">
-                    <label for="checkbox1"></label>
-                </fieldset>
-            </td>
-            <td>Ashley</td>
-            <td>Lynwood</td>
-            <td>@ashow</td>
-            <td>
-                
-            </td>
-        </tr>
-        <tr>
-            
-            <td>
-                <fieldset class="form-group">
-                    <input type="checkbox" id="checkbox2">
-                    <label for="checkbox2"></label>
-                </fieldset>
-            </td>
-            <td>Billy</td>
-            <td>Cullen</td>
-            <td>@cullby</td>
-            <td>
-                
-            </td>
-        </tr>
-        <tr>
-           
-            <td>
-                <fieldset class="form-group">
-                    <input type="checkbox" id="checkbox3">
-                    <label for="checkbox3"></label>
-                </fieldset>
-            </td>
-            <td>Ariel</td>
-            <td>Macy</td>
-            <td>@arielsea</td>
-            <td>
-                <a class="blue-text"><i class="fa fa-user"></i></a>
-                <a class="teal-text"><i class="fa fa-pencil"></i></a>
-                <a class="red-text"><i class="fa fa-times"></i></a>
-            </td>
-        </tr>
-
-    </tbody>
-</table>
-					<div class="fh5co-spacer fh5co-spacer-md"></div>	
+    </table>
+    
+    <div align="right">
+    <form method="post" enctype="multipart/form-data">
+    <input type="file" name="upload">
+    <input type="submit" name="submit" value="أرسل" class="btn btn-primary btn-lg ">
+    </form>
+    </div>
+    
+					<div class="fh5co-spacer fh5co-spacer-md"></div>
 
 				</div>
 			</div>
 
-		
+
 		</div>
 		<!-- END fhtco-main -->
 
